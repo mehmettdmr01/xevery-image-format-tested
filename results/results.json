@@ -1,0 +1,571 @@
+{
+ "tools": {
+  "cjpeg": "libjpeg-turbo 3.2.1",
+  "cwebp": "1.6.0\nlibsharpyuv: 0.4.2",
+  "avifenc": "libavif 1.4.2 (aom 3.15.3)",
+  "heif-enc": "libheif 1.23.7 (x265)",
+  "cjxl": "libjxl 0.12.0",
+  "date": "2026-11-11 08:56"
+ },
+ "transcode": {
+  "rows": [
+   {
+    "name": "astronaut-0-s64-31845",
+    "jpeg": 2050403,
+    "jxl": 1511362,
+    "byte_exact": true
+   },
+   {
+    "name": "astronaut-1-s90-38573",
+    "jpeg": 4171671,
+    "jxl": 3246181,
+    "byte_exact": true
+   },
+   {
+    "name": "astronaut-2-S84-40242",
+    "jpeg": 8863703,
+    "jxl": 6961540,
+    "byte_exact": true
+   },
+   {
+    "name": "aurora-0-KSC-20251111-PH-JBS01_0011",
+    "jpeg": 30225292,
+    "jxl": 21223079,
+    "byte_exact": true
+   },
+   {
+    "name": "earth-0-sl4-143-4707",
+    "jpeg": 2316953,
+    "jxl": 1790273,
+    "byte_exact": true
+   },
+   {
+    "name": "earth-2-iss045e013851",
+    "jpeg": 2245326,
+    "jxl": 1599164,
+    "byte_exact": true
+   },
+   {
+    "name": "moon-0-as11-37-5545",
+    "jpeg": 2813902,
+    "jxl": 2307148,
+    "byte_exact": true
+   },
+   {
+    "name": "nebula-0-PIA03606",
+    "jpeg": 1931304,
+    "jxl": 1525935,
+    "byte_exact": true
+   },
+   {
+    "name": "nebula-1-GSFC_20171208_Archive_e002076",
+    "jpeg": 12478887,
+    "jxl": 10229727,
+    "byte_exact": true
+   },
+   {
+    "name": "plant-0-KSC-20180307-PH_CSH01_0015",
+    "jpeg": 12765745,
+    "jxl": 8852838,
+    "byte_exact": true
+   },
+   {
+    "name": "rocket-0-KSC-20240525-PH-RKL01_0006",
+    "jpeg": 1812772,
+    "jxl": 1408718,
+    "byte_exact": true
+   }
+  ],
+  "total_jpeg": 81675958,
+  "total_jxl": 60655965,
+  "saving": 0.2574,
+  "all_exact": true
+ },
+ "gif": {
+  "size": 1283195,
+  "score": 72.05,
+  "png_size": 3727478
+ },
+ "same_size": {
+  "budget": 94494,
+  "jpeg_q": 25,
+  "JPEG": {
+   "q": 25.41,
+   "size": 94494,
+   "score": 40.82
+  },
+  "WebP": {
+   "q": 58.4,
+   "size": 94344,
+   "score": 61.41
+  },
+  "HEIC": {
+   "q": 42.38,
+   "size": 90213,
+   "score": 67.67
+  },
+  "AVIF": {
+   "q": 51.43,
+   "size": 88243,
+   "score": 67.68
+  },
+  "JPEG XL": {
+   "q": 62.63,
+   "size": 94389,
+   "score": 66.25
+  }
+ },
+ "lossless": {
+  "foto": {
+   "original_raw": 66998400,
+   "BMP": 67008594,
+   "PNG": 34664311,
+   "WebP": 26186378,
+   "AVIF": 32339590,
+   "JPEG XL": 24412794
+  },
+  "ekran": {
+   "original_raw": 18662400,
+   "BMP": 18662562,
+   "PNG": 399016,
+   "WebP": 183960,
+   "AVIF": 595928,
+   "JPEG XL": 202206
+  }
+ },
+ "resave": {
+  "jpeg-same": {
+   "1": 77.13,
+   "2": 76.66,
+   "5": 75.59,
+   "10": 74.76,
+   "25": 74.04,
+   "50": 74.04,
+   "100": 74.04
+  },
+  "jpeg-varying": {
+   "1": 78.13,
+   "2": 74.48,
+   "5": 65.42,
+   "10": 56.76,
+   "25": 44.12,
+   "50": 38.57,
+   "100": 34.09
+  },
+  "webp-same": {
+   "1": 71.53,
+   "2": 64.1,
+   "5": 52.86,
+   "10": 43.11,
+   "25": 25.95,
+   "50": 17.55,
+   "100": 16.89
+  }
+ },
+ "same_quality": {
+  "target": 80.0,
+  "rows": {
+   "astronaut-0-s64-31845": {
+    "JPEG": {
+     "q": 87.75,
+     "size": 258363,
+     "score": 80.14,
+     "enc_s": 0.01
+    },
+    "WebP": {
+     "q": 91.8,
+     "size": 280480,
+     "score": 80.83,
+     "enc_s": 0.196
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 225538,
+     "score": 81.6,
+     "enc_s": 0.677
+    },
+    "AVIF": {
+     "q": 78.5,
+     "size": 178029,
+     "score": 80.59,
+     "enc_s": 0.171
+    },
+    "JPEG XL": {
+     "q": 85.98,
+     "size": 133411,
+     "score": 80.08,
+     "enc_s": 0.287
+    }
+   },
+   "astronaut-1-s90-38573": {
+    "JPEG": {
+     "q": 88.87,
+     "size": 367518,
+     "score": 80.06,
+     "enc_s": 0.01
+    },
+    "WebP": {
+     "q": 90.62,
+     "size": 326958,
+     "score": 80.03,
+     "enc_s": 0.202
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 222803,
+     "score": 80.17,
+     "enc_s": 0.536
+    },
+    "AVIF": {
+     "q": 70.77,
+     "size": 180241,
+     "score": 80.24,
+     "enc_s": 0.176
+    },
+    "JPEG XL": {
+     "q": 81.01,
+     "size": 163167,
+     "score": 80.09,
+     "enc_s": 0.294
+    }
+   },
+   "astronaut-2-S84-40242": {
+    "JPEG": {
+     "q": 85.53,
+     "size": 363562,
+     "score": 80.16,
+     "enc_s": 0.009
+    },
+    "WebP": {
+     "q": 88.67,
+     "size": 336058,
+     "score": 80.72,
+     "enc_s": 0.213
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 297598,
+     "score": 80.75,
+     "enc_s": 0.592
+    },
+    "AVIF": {
+     "q": 73.86,
+     "size": 247744,
+     "score": 80.28,
+     "enc_s": 0.211
+    },
+    "JPEG XL": {
+     "q": 86.75,
+     "size": 251332,
+     "score": 80.44,
+     "enc_s": 0.3
+    }
+   },
+   "aurora-0-KSC-20251111-PH-JBS01_0011": {
+    "JPEG": {
+     "q": 90.72,
+     "size": 412414,
+     "score": 80.26,
+     "enc_s": 0.009
+    },
+    "WebP": {
+     "q": 90.62,
+     "size": 396644,
+     "score": 80.8,
+     "enc_s": 0.235
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 386963,
+     "score": 80.43,
+     "enc_s": 0.611
+    },
+    "AVIF": {
+     "q": 81.6,
+     "size": 323077,
+     "score": 80.66,
+     "enc_s": 0.169
+    },
+    "JPEG XL": {
+     "q": 91.73,
+     "size": 293088,
+     "score": 80.34,
+     "enc_s": 0.264
+    }
+   },
+   "earth-0-sl4-143-4707": {
+    "JPEG": {
+     "q": 85.53,
+     "size": 579299,
+     "score": 80.51,
+     "enc_s": 0.012
+    },
+    "WebP": {
+     "q": 86.72,
+     "size": 540480,
+     "score": 80.07,
+     "enc_s": 0.265
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 462844,
+     "score": 80.93,
+     "enc_s": 0.71
+    },
+    "AVIF": {
+     "q": 71.54,
+     "size": 390557,
+     "score": 80.44,
+     "enc_s": 0.276
+    },
+    "JPEG XL": {
+     "q": 84.07,
+     "size": 354089,
+     "score": 80.08,
+     "enc_s": 0.375
+    }
+   },
+   "earth-2-iss045e013851": {
+    "JPEG": {
+     "q": 87.75,
+     "size": 319974,
+     "score": 80.12,
+     "enc_s": 0.009
+    },
+    "WebP": {
+     "q": 90.62,
+     "size": 303654,
+     "score": 80.4,
+     "enc_s": 0.171
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 237601,
+     "score": 81.23,
+     "enc_s": 0.475
+    },
+    "AVIF": {
+     "q": 73.86,
+     "size": 183494,
+     "score": 80.58,
+     "enc_s": 0.178
+    },
+    "JPEG XL": {
+     "q": 88.66,
+     "size": 195133,
+     "score": 80.18,
+     "enc_s": 0.249
+    }
+   },
+   "moon-0-as11-37-5545": {
+    "JPEG": {
+     "q": 76.62,
+     "size": 276776,
+     "score": 80.22,
+     "enc_s": 0.01
+    },
+    "WebP": {
+     "q": 86.72,
+     "size": 252678,
+     "score": 80.25,
+     "enc_s": 0.219
+    },
+    "HEIC": {
+     "q": 50.78,
+     "size": 191713,
+     "score": 81.23,
+     "enc_s": 0.518
+    },
+    "AVIF": {
+     "q": 67.68,
+     "size": 196339,
+     "score": 80.28,
+     "enc_s": 0.199
+    },
+    "JPEG XL": {
+     "q": 76.41,
+     "size": 162341,
+     "score": 80.21,
+     "enc_s": 0.346
+    }
+   },
+   "nebula-0-PIA03606": {
+    "JPEG": {
+     "q": 88.87,
+     "size": 640739,
+     "score": 80.54,
+     "enc_s": 0.011
+    },
+    "WebP": {
+     "q": 86.72,
+     "size": 524472,
+     "score": 80.32,
+     "enc_s": 0.252
+    },
+    "HEIC": {
+     "q": 50.78,
+     "size": 466639,
+     "score": 80.46,
+     "enc_s": 0.699
+    },
+    "AVIF": {
+     "q": 70.77,
+     "size": 442483,
+     "score": 80.31,
+     "enc_s": 0.613
+    },
+    "JPEG XL": {
+     "q": 87.9,
+     "size": 445366,
+     "score": 80.33,
+     "enc_s": 0.394
+    }
+   },
+   "nebula-1-GSFC_20171208_Archive_e002076": {
+    "JPEG": {
+     "q": 88.87,
+     "size": 341532,
+     "score": 80.19,
+     "enc_s": 0.008
+    },
+    "WebP": {
+     "q": 91.8,
+     "size": 381872,
+     "score": 81.71,
+     "enc_s": 0.235
+    },
+    "HEIC": {
+     "q": 52.73,
+     "size": 252450,
+     "score": 80.47,
+     "enc_s": 0.51
+    },
+    "AVIF": {
+     "q": 74.64,
+     "size": 240158,
+     "score": 80.35,
+     "enc_s": 0.171
+    },
+    "JPEG XL": {
+     "q": 83.3,
+     "size": 180530,
+     "score": 80.06,
+     "enc_s": 0.284
+    }
+   },
+   "plant-0-KSC-20180307-PH_CSH01_0015": {
+    "JPEG": {
+     "q": 94.8,
+     "size": 467420,
+     "score": 80.4,
+     "enc_s": 0.009
+    },
+    "WebP": {
+     "q": 97.66,
+     "size": 438228,
+     "score": 80.11,
+     "enc_s": 0.233
+    },
+    "HEIC": {
+     "q": 54.69,
+     "size": 194192,
+     "score": 80.02,
+     "enc_s": 0.391
+    },
+    "AVIF": {
+     "q": 65.74,
+     "size": 146080,
+     "score": 80.12,
+     "enc_s": 0.143
+    },
+    "JPEG XL": {
+     "q": 77.95,
+     "size": 158329,
+     "score": 80.08,
+     "enc_s": 0.245
+    }
+   },
+   "rocket-0-KSC-20240525-PH-RKL01_0006": {
+    "JPEG": {
+     "q": 89.61,
+     "size": 281843,
+     "score": 80.54,
+     "enc_s": 0.008
+    },
+    "WebP": {
+     "q": 94.53,
+     "size": 366706,
+     "score": 80.98,
+     "enc_s": 0.236
+    },
+    "HEIC": {
+     "q": 50.78,
+     "size": 202064,
+     "score": 80.4,
+     "enc_s": 0.511
+    },
+    "AVIF": {
+     "q": 78.5,
+     "size": 187316,
+     "score": 80.73,
+     "enc_s": 0.217
+    },
+    "JPEG XL": {
+     "q": 89.43,
+     "size": 166727,
+     "score": 80.25,
+     "enc_s": 0.253
+    }
+   }
+  },
+  "summary": {
+   "JPEG": {
+    "median_vs_jpeg": 1.0,
+    "total": 4309440,
+    "median_enc_s": 0.009
+   },
+   "WebP": {
+    "median_vs_jpeg": 0.9375,
+    "total": 4148230,
+    "median_enc_s": 0.233
+   },
+   "HEIC": {
+    "median_vs_jpeg": 0.7392,
+    "total": 3140405,
+    "median_enc_s": 0.536
+   },
+   "AVIF": {
+    "median_vs_jpeg": 0.6814,
+    "total": 2715518,
+    "median_enc_s": 0.178
+   },
+   "JPEG XL": {
+    "median_vs_jpeg": 0.5916,
+    "total": 2503513,
+    "median_enc_s": 0.287
+   }
+  }
+ },
+ "cross": {
+  "JPEG": {
+   "ssim": 0.8559,
+   "psnr": 32.3556
+  },
+  "WebP": {
+   "ssim": 0.8867,
+   "psnr": 34.4445
+  },
+  "HEIC": {
+   "ssim": 0.9007,
+   "psnr": 35.0533
+  },
+  "AVIF": {
+   "ssim": 0.9017,
+   "psnr": 35.2566
+  },
+  "JPEG XL": {
+   "ssim": 0.8904,
+   "psnr": 34.3654
+  }
+ }
+}
